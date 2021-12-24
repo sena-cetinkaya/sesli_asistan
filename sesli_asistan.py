@@ -7,7 +7,6 @@ from playsound import playsound
 import random
 import os
 import requests 
-#from requests.packages.urllib3.exceptions import InsecureRequestWarning
 from urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
